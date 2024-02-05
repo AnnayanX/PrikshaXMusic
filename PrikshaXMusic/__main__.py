@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await PrikshaX.start()
     try:
-        await PrikshaX.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await PrikshaX.stream_call("https://telegra.ph/file/a9bee668f448253a32020.mp4")
     except NoActiveGroupCall:
         LOGGER("PrikshaXMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
