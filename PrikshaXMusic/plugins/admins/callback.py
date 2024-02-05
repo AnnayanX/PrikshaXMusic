@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from PrikshaXMusic import YouTube, app
-from PrikshaXMusic.core.call import Priksha
+from PrikshaXMusic.core.call import PrikshaX
 from PrikshaXMusic.misc import SUDOERS, db
 from PrikshaXMusic.utils.database import (
     get_active_chats,

@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from PrikshaXMusic import YouTube, app
-from PrikshaXMusic.core.call import Priksha
+from PrikshaXMusic.core.call import PrikshaX
 from PrikshaXMusic.misc import db
 from PrikshaXMusic.utils import AdminRightsCheck, seconds_to_min
 from PrikshaXMusic.utils.inline import close_markup

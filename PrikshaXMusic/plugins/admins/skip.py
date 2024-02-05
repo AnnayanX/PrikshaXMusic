@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from PrikshaXMusic import YouTube, app
-from PrikshaXMusic.core.call import Priksha
+from PrikshaXMusic.core.call import PrikshaX
 from PrikshaXMusic.misc import db
 from PrikshaXMusic.utils.database import get_loop
 from PrikshaXMusic.utils.decorators import AdminRightsCheck
