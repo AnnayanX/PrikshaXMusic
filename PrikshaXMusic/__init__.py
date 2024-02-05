@@ -1,4 +1,4 @@
-from PrikshaXMusic.core.bot import Priksha
+from PrikshaXMusic.core.bot import PrikshaX
 from PrikshaXMusic.core.dir import dirr
 from PrikshaXMusic.core.git import git
 from PrikshaXMusic.core.userbot import Userbot
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Priksha()
+app = PrikshaX()
 userbot = Userbot()
 
 
