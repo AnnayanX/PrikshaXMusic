@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from PrikshaXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from PrikshaXMusic.core.call import Priksha
+from PrikshaXMusic.core.call import PrikshaX
 from PrikshaXMusic.utils import seconds_to_min, time_to_seconds
 from PrikshaXMusic.utils.channelplay import get_channeplayCB
 from PrikshaXMusic.utils.decorators.language import languageCB
@@ -288,7 +288,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await Priksha.stream_call(url)
+                await PrikshaX.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(_["black_9"])
                 return await app.send_message(

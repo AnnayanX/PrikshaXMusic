@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from PrikshaXMusic import app
-from PrikshaXMusic.core.call import Priksha, autoend
+from PrikshaXMusic.core.call import PrikshaX, autoend
 from PrikshaXMusic.utils.database import get_client, is_active_chat, is_autoend
 
 
@@ -59,7 +59,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Priksha.stop_stream(chat_id)
+                    await PrikshaX.stop_stream(chat_id)
                 except:
                     continue
                 try:
