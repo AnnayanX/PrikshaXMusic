@@ -6,11 +6,11 @@
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg">
+  <img src="https://telegra.ph/file/ef7c0f2186c95ce517c83.jpg">
 </p>
 
 <p align="center">
-<a href="https://github.com/PrikshaXMusic/PrikshaXMusic/stargazers"> <img src="https://img.shields.io/github/stars/PrikshaXMusic/PrikshaXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/PrikshaXMusic/PrikshaXMusic/stargazers"> <img src="https://img.shields.io/github/stars/AnnayanX/PrikshaXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/PrikshaXMusic/PrikshaXMusic/network/members"> <img src="https://img.shields.io/github/forks/PrikshaXMusic/PrikshaXMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/PrikshaXMusic/PrikshaXMusic/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
