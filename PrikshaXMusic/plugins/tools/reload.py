@@ -6,7 +6,7 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
 from PrikshaXMusic import app
-from PrikshaXMusic.core.call import Priksha
+from PrikshaXMusic.core.call import PrikshaX
 from PrikshaXMusic.misc import db
 from PrikshaXMusic.utils.database import get_assistant, get_authuser_names, get_cmode
 from PrikshaXMusic.utils.decorators import ActualAdminCB, AdminActual, language
@@ -53,7 +53,7 @@ async def restartbot(client, message: Message, _):
     await asyncio.sleep(1)
     try:
         db[message.chat.id] = []
-        await Priksha.stop_stream_force(message.chat.id)
+        await PrikshaX.stop_stream_force(message.chat.id)
     except:
         pass
     userbot = await get_assistant(message.chat.id)
