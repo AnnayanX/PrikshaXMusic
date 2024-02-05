@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from PrikshaXMusic import app
-from PrikshaXMusic.core.call import Priksha
+from PrikshaXMusic.core.call import PrikshaX
 from PrikshaXMusic.misc import SUDOERS, db
 from PrikshaXMusic.utils import AdminRightsCheck
 from PrikshaXMusic.utils.database import is_active_chat, is_nonadmin_chat
