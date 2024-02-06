@@ -86,7 +86,7 @@ clean = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/a9bee668f448253a32020.jpg"
+    "START_IMG_URL", "https://graph.org/file/97782c0b14b8da0f32a98.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/a9bee668f448253a32020.jpg"
