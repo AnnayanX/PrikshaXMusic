@@ -16,10 +16,10 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 5400))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999999))
 
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "5400")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "99999")
 )
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
